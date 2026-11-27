@@ -27,7 +27,7 @@ This sample demonstrates how to display notification badges within a Syncfusion 
 1. Clone this repository.
 2. Open the repository folder in Visual Studio 2022.
 3. Restore NuGet packages.
-4. Set the Blazor WebAssembly project as the startup project if required.
+4. Set the Blazor project as the startup project if required.
 5. Build the project.
 6. Run the application using **Ctrl+F5**.
 
@@ -35,18 +35,24 @@ This sample demonstrates how to display notification badges within a Syncfusion 
 
 1. Open the repository folder in Visual Studio Code.
 2. Open the integrated terminal.
-3. Navigate to the project directory.
+3. Navigate to the `BlazorApp_Badge` project directory.
+
+```bash
+cd BlazorApp_Badge
+```
+4. Restore project dependencies:
 
 ```bash
 dotnet restore
+```
+
+5. Run the application:
+
+```bash
 dotnet run
 ```
 
-4. Open the URL displayed in the terminal after the application starts.
-
-## Project Structure
-
-- `Pages/Index.razor` — Main sample page demonstrating notification badges integrated within a Syncfusion Toolbar.
+6. Open the URL displayed in the terminal after the application starts.
 
 ## Support and Feedback
 
